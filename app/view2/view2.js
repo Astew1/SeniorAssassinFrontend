@@ -9,6 +9,20 @@ angular.module('myApp.view2', ['ngRoute'])
   });
 }])
 
-.controller('View2Ctrl', [function() {
-
+.controller('View2Ctrl', ['$rootScope', '$scope', function($rootScope, $scope) {
+  //   $rootScope.currentTarget = "JB from rootScope";
+  // $scope.getTarget = function(){
+  //   return "JB from Scope";
+  // };
+  // $scope.tget = "JG from scope var";
+  // $scope.targets = [
+  //     {target:"Johnny Brod from array in Scope"}
+  // ];
+    $scope.target = "Tony Park";
+    $scope.assassinate = function(){
+      console.log("Assassinate!");
+    };
+    $scope.confirmDeath = function(){
+      console.log("Kill Confirmed!");
+    };
 }]);

@@ -1,0 +1,46 @@
+
+.spacer {
+    margin-top: 40px;
+}
+
+.button-left-right-margins {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.big-button {
+    height: 100px;
+    font-size: 50px;
+    /*border-radius: 20px;*/
+
+}
+
+.ass-btn-color {
+    background: #000000;
+    color: #F57C00;
+}
+
+.die-btn-color {
+    background: #000000;
+    color: whitesmoke;
+}
+
+.content-box{
+    background: dimgrey;
+    padding:20px;
+    margin-bottom:20px;
+    height:200px;
+}
+
+.safety-header{
+    color: #F57C00;
+}
+
+.centered{
+    text-align: center
+}
+
+
+h3 {
+    color: #000000;
+}
