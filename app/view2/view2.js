@@ -18,11 +18,12 @@ angular.module('myApp.view2', ['ngRoute'])
   // $scope.targets = [
   //     {target:"Johnny Brod from array in Scope"}
   // ];
-    $scope.target = "Tony Park";
+    $scope.target = "Tony Park ing";
     $scope.assassinate = function(){
       console.log("Assassinate!");
     };
     $scope.confirmDeath = function(){
       console.log("Kill Confirmed!");
     };
+    
 }]);
